@@ -169,7 +169,7 @@ const App = () => {
                     animate: { scale: 1, rotate: 0 },
                     transition: { duration: 0.5 }
                   },
-                  void 0,
+                  `${currentItem.word}-image`,
                   false,
                   {
                     fileName: "<stdin>",
@@ -183,12 +183,12 @@ const App = () => {
                 }),
                 currentItem.state === "loading" && /* @__PURE__ */ jsxDEV("i", { className: "fas fa-spinner fa-spin fa-3x" }, void 0, false, {
                   fileName: "<stdin>",
-                  lineNumber: 171,
+                  lineNumber: 172,
                   columnNumber: 77
                 }),
                 /* @__PURE__ */ jsxDEV("div", { className: "word-display", children: currentItem.word }, void 0, false, {
                   fileName: "<stdin>",
-                  lineNumber: 172,
+                  lineNumber: 173,
                   columnNumber: 41
                 })
               ]
@@ -211,11 +211,11 @@ const App = () => {
           }),
           currentItem?.state === "ready" && /* @__PURE__ */ jsxDEV("div", { className: "listening-indicator", children: /* @__PURE__ */ jsxDEV("i", { className: "fas fa-microphone" }, void 0, false, {
             fileName: "<stdin>",
-            lineNumber: 177,
+            lineNumber: 178,
             columnNumber: 97
           }) }, void 0, false, {
             fileName: "<stdin>",
-            lineNumber: 177,
+            lineNumber: 178,
             columnNumber: 60
           })
         ] }, void 0, true, {
@@ -230,28 +230,28 @@ const App = () => {
   return /* @__PURE__ */ jsxDEV(Fragment, { children: [
     /* @__PURE__ */ jsxDEV("video", { ref: videoRef, autoPlay: true, playsInline: true, muted: true, className: "webcam-video" }, void 0, false, {
       fileName: "<stdin>",
-      lineNumber: 187,
+      lineNumber: 188,
       columnNumber: 13
     }),
     /* @__PURE__ */ jsxDEV("div", { className: "game-overlay", children: renderGameState() }, void 0, false, {
       fileName: "<stdin>",
-      lineNumber: 188,
+      lineNumber: 189,
       columnNumber: 13
     }),
     /* @__PURE__ */ jsxDEV("audio", { ref: correctAudioRef, src: "./correct.mp3", preload: "auto" }, void 0, false, {
       fileName: "<stdin>",
-      lineNumber: 191,
+      lineNumber: 192,
       columnNumber: 13
     })
   ] }, void 0, true, {
     fileName: "<stdin>",
-    lineNumber: 186,
+    lineNumber: 187,
     columnNumber: 9
   });
 };
 const root = createRoot(document.getElementById("root"));
 root.render(/* @__PURE__ */ jsxDEV(App, {}, void 0, false, {
   fileName: "<stdin>",
-  lineNumber: 197,
+  lineNumber: 198,
   columnNumber: 13
 }));
