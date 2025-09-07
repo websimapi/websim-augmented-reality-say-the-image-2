@@ -52,6 +52,5 @@ export const householdItems = [
     "jigsaw", "journal", "jug", "juicer", "jumper", "kayak", "keychain", "kiln", "kimono",
     "kit", "kitchen", "kite", "knapsack", "knocker", "label", "lace", "ladle", "lantern",
     "latch", "lawn", "leash", "leather", "leggings", "lemon", "lens", "letter", "lever",
-d"life", "lighter", "limousine", "liner", "lipstick", "liquid", "locket", "log", "lotion"
+    "life", "lighter", "limousine", "liner", "lipstick", "liquid", "locket", "log", "lotion"
 ];
-
